@@ -1,0 +1,64 @@
+#span{
+	font-size: 35px;
+	font-family: Lucida Console;
+	color:#fb5400;
+ 	text-shadow: 0px 2px 3px 1px #0a000c;
+}
+#nav{
+ 	background-color:#511fb5;
+ }
+ #letra{
+        color: #000;
+        font-size: 25px;
+ }
+ #botao{
+ 	background-color: #fb5400;
+ 	
+ }
+#slide-out{
+	width: 250px;
+}
+ #footer{
+background-color:#511fb5;
+position: absolute;
+bottom: 0;
+width:100%;
+ 	 }
+
+#footer2{
+	left: 10px;
+}
+
+html, body {height:100%;}
+
+.geral {
+    min-height:100%;
+    position:relative;
+    width:800px;
+}
+
+
+
+ header, main, footer {
+      padding-left: 300px;
+    }
+
+  @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+
+
+ body {
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+	

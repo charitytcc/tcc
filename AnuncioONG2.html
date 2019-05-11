@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css\AnuncioONG.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+
+
+  <body>
+    <div class="navbar-fixed">
+      <nav id="nav">
+
+        <div class="nav-wrapper">
+          <a href="#" id="span" class="center brand-logo">Chari-TY</a>
+          <ul>
+          </ul>
+
+          <ul id="navbar-itens" class="right hide-on-med-and-down">
+            <li><a href="PaginaInicial.html">Inicio</a> </li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Perfil</a></li>
+            <li><a class="waves-effect waves-light btn modal-trigger" id="botao" href="#ONG_modal">Cadastrar</a></li>
+
+
+          </ul>
+
+
+        </div>
+      </nav>
+    </div>
+
+   
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+      <li><div class="user-view">
+        <div class="background">
+          <img src="https://tvmundomaior.com.br/wp-content/uploads/2018/09/89c974_aac75251d9af4dd88775e0e1a4880415-822x462.jpg">
+        </div>
+        <a href="#user"><img class="circle" src="https://i.imgur.com/LuTnzM8.png"></a>
+        <a href="#name"><span class="white-text name">Reinaldo</span></a>
+        <a href="#email"><span class="white-text email">reinaldozoidegato@gmail.com</span></a>
+      </div></li>
+      <li><a href="#!"><i class="material-icons">account_circle</i>Perfil</a></li>
+      <li><a href="#!"><i class="material-icons">settings</i>Configurações</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Categorias</a></li>
+      <li><a class="waves-effect" href="#!">Elétrodomésticos</a></li>
+      <li><a class="waves-effect" href="#!">Móveis</a></li>
+      <li><a class="waves-effect" href="#!">Eletrônicos</a></li>
+      <li><a class="waves-effect" href="#!">Esportes e Lazer</a></li>
+      <li><a class="waves-effect" href="#!">Vestuário</a></li>
+      <li><a class="waves-effect" href="#!">Higiene</a></li>
+    </ul>
+
+
+<div class="modal fade" id="ONG_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cadastrar-se como ONG</h5>
+      
+      </div>
+      <div class="modal-body">
+      <div class="row">
+
+    <form class="col s12">
+
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Nome da ONG" id="nome-ong" type="text" class="validate">
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="Email" id="email-ONG" type="text" class="validate">
+        </div>
+      </div>
+     
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Senha" id="senha-ONG" type="password" class="validate">
+        </div>
+
+        <div class="input-field col s6">
+          <input placeholder="Confirmar senha" id="confirm-senhaONG" type="password" class="validate">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="CNPJ" id="cnpj" type="text" class="validate">
+        </div>
+
+        <div class="input-field col s6">
+          <input placeholder="CPF Responsável" id="CPF-ONG" type="text" class="validate">
+        </div>
+      </div>
+     
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Telefone" id="telefone-ONG" type="text" class="validate">
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="Categoria ONG" id="categoria" type="text" class="validate">
+        </div>
+      </div>
+      
+        
+
+    </form>
+
+  </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="waves-effect waves-light btn">Cadastrar</button>
+        <button type="button" class="waves-effect waves-light btn modal-close">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div id="card" class="row">
+      <br>
+      <div class="col s12 m2">
+        
+      </div>
+
+<div class="col s12 m2">
+        <div class="card">
+          <div class="card-image">
+            <img src="">  
+          </div>
+          <span id="letra" class="card-title">Produto 1</span>
+          <div class="card-content">
+            <p>Descrição do produto.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+ <div class="col s12 m2">
+        <div class="card">
+          <div class="card-image">
+            <img src="">  
+          </div>
+          <span id="letra" class="card-title">Produto 2</span>
+          <div class="card-content">
+            <p>Descrição do produto.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col s12 m2">
+        <div class="card">
+          <div class="card-image">
+            <img src="">  
+          </div>
+          <span id="letra" class="card-title">Produto 3</span>
+          <div class="card-content">
+            <p>Descrição do produto.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col s12 m2">
+        <div class="card">
+          <div class="card-image">
+            <img src="">  
+          </div>
+          <span id="letra" class="card-title">Produto 4</span>
+          <div class="card-content">
+            <p>Descrição do produto.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col s12 m2">
+        <div class="card">
+          <div class="card-image">
+            <img src="">  
+          </div>
+          <span id="letra" class="card-title">Produto 5</span>
+          <div class="card-content">
+            <p>Descrição do produto.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="modal" id="doar">
+      <h4>Publicar doação</h4>
+      <div class="modal-content central">
+        <form>
+          <div>
+            <input type="text" name="Nome do Item"> 
+          </div>
+
+        </form>
+        <div class="modal-footer btn-flat">Cadastrar</div>
+
+      </div> 
+
+
+    </div>
+
+    <footer id="footer" class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h6 class="white-text">Footer Content</h6>
+            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h6 class="white-text">Links</h6>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="footer2" class="footer-copyright">
+        <div class="container">
+          © 2019 Autoral Text
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+
+  </script>
+
+  <script type="text/javascript">  $(document).ready(function(){
+    $('.modal').modal();
+  });
+
+</script>
+<script>document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems, options);
+});
+</script>
+<script >document.addEventListener('DOMContentLoaded', function() {
+ var elems = document.querySelectorAll('.modal');
+var instances = M.Modal.init(elems, options);</script>
+
+</body>
+</html>

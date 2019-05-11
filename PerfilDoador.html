@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	</title>
+    <link rel="stylesheet" type="text/css" href="css\AnuncioDoador.css"/>
+	  <link rel="stylesheet" type="text/css" href="css\PerfilDoador.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+
+</head>
+<body>
+
+	 <div class="navbar-fixed">
+      <nav id="nav">
+
+        <div class="nav-wrapper">
+          <a href="#" id="span" class="center brand-logo">Chari-TY</a>
+          <ul>
+          </ul>
+
+          <ul id="navbar-itens" class="right hide-on-med-and-down">
+            <li><a href="PaginaInicial.html">Inicio</a> </li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Ajuda</a></li>            
+
+            <li><a class="waves-effect waves-light btn modal-trigger" id="botao" href="">Fazer Logoff</a></li>
+
+
+          </ul>
+
+        
+
+
+        </div>
+      </nav>
+    </div>
+
+      <ul id="slide-out" class="sidenav sidenav-fixed">
+      <li><div class="user-view">
+        <div class="background">
+          <img src="https://tvmundomaior.com.br/wp-content/uploads/2018/09/89c974_aac75251d9af4dd88775e0e1a4880415-822x462.jpg">
+        </div>
+        <a href="#user"><img class="circle" src="https://i.imgur.com/LuTnzM8.png"></a>
+        <a href="#name"><span class="white-text name">Reinaldo</span></a>
+        <a href="#email"><span class="white-text email">reinaldozoidegato@gmail.com</span></a>
+      </div></li>
+      <li><a href="PerfilDoador.html"><i class="material-icons">account_circle</i>Perfil</a></li>
+      <li><a href="#!"><i class="material-icons">settings</i>Configurações</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Categorias</a></li>
+      <li><a class="waves-effect" href="#!">Elétrodomésticos</a></li>
+      <li><a class="waves-effect" href="#!">Móveis</a></li>
+      <li><a class="waves-effect" href="#!">Eletrônicos</a></li>
+      <li><a class="waves-effect" href="#!">Esportes e Lazer</a></li>
+      <li><a class="waves-effect" href="#!">Vestuário</a></li>
+      <li><a class="waves-effect" href="#!">Higiene</a></li>
+    </ul>
+
+     <ul id="collapsible"class="collapsible popout">
+    <li>
+      <div class="collapsible-header"><i class="material-icons prefix">account_circle</i>Perfil<br>Nome: <br> CPF: <br>Senha:</div>
+      <div class="collapsible-body"><span><div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix"></i>
+          <input id="" type="text" class="validate">
+          <label for="">Nome:</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix"></i>
+          <input id="" type="text" class="validate">
+          <label for="">CPF:</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix"></i>
+          <input id="" type="password" class="validate">
+          <label for="">Nova Senha:</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix"></i>
+          <input id="" type="password" class="validate">
+          <label for="">Confirmar Senha:</label>
+        </div>
+      </div>
+    </form>
+  </div></span></div>
+    </li>
+    <li>
+      <li class="active">
+    <div class="collapsible-header"><i class="material-icons">contacts</i> Informações de contato <br>Email: <br>Telefone:</div>
+      <div class="collapsible-body"><span>
+        <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix"></i>
+          <input id="" type="email" class="validate">
+          <label for="">Email:</label>
+        </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix"></i>
+          <input id="" type="tel" class="validate">
+          <label for="">Telefone:</label>
+        </div>
+      </span></div>
+
+    </li>
+  </ul>
+
+
+   
+   <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+
+  </script>
+<script type="text/javascript">$(document).ready(function(){
+    $('.form').form();
+  });</script>
+<script > document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+		#body{
+			background-image: url(https://img1.goodfon.com/wallpaper/nbig/a/5b/firewatch-campo-santo-2432.jpg);
+			-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+		}
+ #nav{
+ 	background-color:#511fb5;
+
+ }
+
+#span{
+	font-size: 35px;
+	font-family: Lucida Console;
+	color:#fb5400;
+ 	text-shadow: 0px 2px 3px 1px #0a000c;
+}
+
+ #text{
+	font-family: cooper black;
+ 	font-size: 60px;
+ 	position: fixed;
+	top: 20%;
+	left: 500;
+
+ }
+
+ #textD{
+	font-family: arial;
+ 	font-size:20px;
+ 	position: fixed;
+	top:50%;
+	left: 250;
+ }
+
+ #textO{
+	font-family: arial;
+ 	font-size:20px;
+ 	position: fixed;
+	top:50%;
+	left: 800;
+ }
+
+ #doador{
+ 	background-color:#fb5400;
+ 	position: fixed;
+ 	top:40%;
+	left: 350;
+	font-family: arial;
+	font-size: 28px;
+	color:#FFFFFF;
+ }
+#ONG{
+ 	background-color:#511fb5;
+ 	position: fixed;
+ 	top:40%;
+	left: 930;
+	font-family: arial;
+	font-size: 28px;
+	color:#FFFFFF;
+
+ }
